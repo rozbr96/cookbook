@@ -1,0 +1,10 @@
+
+<% if @categories.empty? %>
+  <h3>Nenhuma Categoria Encontrada</h3>
+<% else %>
+  <ul>
+    <% @categories.each do |category| %>
+      <%= category.name %>
+    <% end %>
+  </ul>
+<% end %>
