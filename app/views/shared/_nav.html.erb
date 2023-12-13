@@ -4,6 +4,9 @@
       <i class="bi bi-basket-fill"></i>
       CookBook
     <% end %>
+
+    <%= link_to 'Categorias de Receitas', categories_path, class: 'navbar-brand nav-link' %>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <% if user_signed_in? %>
