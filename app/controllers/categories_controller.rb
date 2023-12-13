@@ -21,6 +21,11 @@ class CategoriesController < ApplicationController
     @category = Category.new
   end
 
+  def recipes
+    category = Category.find params[:category_id]
+    @recipes = category.recipes
+  end
+
 
   private
 
