@@ -1,0 +1,10 @@
+pt-BR:
+  activerecord:
+    models:
+      category:
+        one: Categoria de Receitas
+        other: Categorias de Receitas
+
+    attributes:
+      category:
+        name: Nome
